@@ -92,9 +92,8 @@ footer {
 }
 
 #img-col img {
-  height: 60%;
-  width: 60%;
-
+  height: 34%;
+  width: 55%;
 }
 
 @keyframes animateBg {
