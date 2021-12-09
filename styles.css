@@ -1,0 +1,100 @@
+body {
+  font-family: "Abel";
+  align-items: center;
+  background-image: linear-gradient(0deg, #328821, #9edf8e, #45A945, #328821); 
+  animation: animateBg 10s infinite linear;
+  margin: 0px 0px;
+}
+
+#site-header {
+  position:absolute;
+  left:0;
+  top:0;
+  width: 100%;
+  height: 10%;
+  background-color: rgb(18, 24, 16);
+  color: #cbcbcb;
+}
+
+#logo {
+  position:absolute;
+  top:0;
+  height: 100%;
+  width: 10%;
+  margin-left: 2%;
+}
+
+.wolt-blue {
+  color: #002442;
+}
+
+#motto {
+  position: absolute;
+  top: 15%;
+  vertical-align: top;
+  margin-left: 15%;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.attention {
+  color: #b82727;
+}
+
+.bg-attention {
+  /* color:#328821; */
+  background-color: #a72727;
+  border-color: #a72727;
+}
+
+#food-cover {
+  margin-top: 8%;
+  margin-bottom: 3%;
+  margin-left: 2%;
+}
+
+#wolt {
+  column-count: 2;
+}
+
+h2 {
+  font-weight: bold;
+  background-color: #45A945;
+  width: 105%;
+  margin-left: 5%;
+  text-align:center;
+}
+
+p {
+  background-color: #45A945;
+  width: 105%;
+  margin-left: 5%;
+  font-size: 20px;
+}
+
+button {
+  font-size: 20px;
+}
+
+
+#img-col {
+  width: 100%;
+  margin-top: 99999px;
+  align-self: auto;
+  margin-left: 20%;
+}
+
+#img-col img {
+  height: 60%;
+  width: 60%;
+
+}
+
+@keyframes animateBg {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100;
+  }
+}

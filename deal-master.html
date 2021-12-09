@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>DealMaster</title>
+    <link rel = "icon" href = "img/deal-master.png" type = "image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+
+</head>
+
+<script src="deal-master.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-213773903-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-213773903-1');
+</script>
+
+<body>
+    <div id="site-header">
+      <h1> 
+        <img id=logo src="img/deal-master3.png"/> 
+        <span id="motto"> Enjoy your <span class="attention">discount</span> now! </span> 
+      </h1>
+    </div>
+    
+
+    <img id="food-cover" class="img-fluid" src="img/food-cover1.png"/>
+
+    <div id="wolt">
+        <div>
+          <h2>Wolt 15€ Discount</h2>
+          <p>
+            🍔 Get <b>5€ discount</b> for your <b>first three orders (x3)</b>, after applying the referral code.  <br/>
+            🍕 Completely <b>FREE!</b> <br/>
+            <b>
+              🍟 CODE: <span id="wolt-code">6PWUD7F</span> <br/>
+              👉 COPY and go to Wolt with 
+              <button id="copy-button" class="bg-attention" type="button" onclick="copyToClipboard();">
+                one CLICK!
+              </button>
+            </b> 
+            <br/><br/>
+            How to apply the referral code? <br/>
+            • During registration: wolt.com -> Sign up -> Referral Code <br/>
+            • After registration: wolt.com -> Log in -> Profile -> Redeem Code <br/>
+          </p>
+        </div> 
+        <div id="img-col"> 
+          <img src="img/wolt2.jpg"></img>
+          <img src="img/eating-happy.jpg"></img>
+          <img src="img/burgermeister.png">
+        </div>
+    </div>
+
+</body>
+</html>
