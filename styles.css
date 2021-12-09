@@ -65,7 +65,7 @@ h2 {
   text-align:center;
 }
 
-p {
+#wolt p {
   background-color: #3f9624af;
   width: 105%;
   margin-left: 5%;
@@ -77,6 +77,10 @@ p {
   color: #dde;
   background-color: #a72727;
   border-color: #a72727;
+}
+ 
+footer {
+  margin: 2% 2%;
 }
 
 
@@ -100,4 +104,12 @@ p {
   100% {
     background-position: 650 0;
   }
+}
+
+footer {
+  margin-top: 13%;
+}
+
+footer p {
+  margin-left: 5%;
 }
