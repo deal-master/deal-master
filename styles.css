@@ -55,11 +55,11 @@ body {
 }
 
 h2 {
-  background-image: linear-gradient(90deg, #791616, #277c0e);
-  animation: animateBg 7s infinite linear;
+  /* background-image: linear-gradient(90deg, #791616, #277c0e);
+  animation: animateBg 7s infinite linear; */
   font-weight: bold;
   color: #dde;
-  background-color: #45A945;
+  background-color:#121810;
   width: 105%;
   margin-left: 5%;
   text-align:center;
