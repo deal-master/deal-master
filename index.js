@@ -7,7 +7,7 @@ function copyToClipboard() {
     code.parentNode.removeChild(code);
     document.getElementById('wolt').scrollIntoView();
     alert("Code copied! 👍");
-    let openWolt = confirm('We are redirecting you to Wolt, so you can get your credits!');
+    let openWolt = confirm('We are redirecting you to Wolt, so you can get your credits!😋🍟');
     if (openWolt) {
       goToWolt()
     }
