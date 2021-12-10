@@ -1,4 +1,6 @@
-
+ Enjoy your discount now! 
+ 
+© Deal Master | developed in Berlin with ❤
 
 <!--
 **deal-master/deal-master** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
