@@ -1,4 +1,4 @@
-function copyToClipboard() {
+function oneClickAction() {
     var code = document.body.appendChild(document.createElement("input"));
     code.value = document.getElementById("wolt-code").innerHTML;
     code.focus();
@@ -12,6 +12,17 @@ function copyToClipboard() {
       goToWolt()
     }
   }
+
+function copyToClipboard() {
+    var code = document.body.appendChild(document.createElement("input"));
+    code.value = document.getElementById("wolt-code").innerHTML;
+    code.focus();
+    code.select();
+    document.execCommand('copy');
+    code.parentNode.removeChild(code);
+    document.getElementById('wolt').scrollIntoView();
+    alert("Code copied! 👍");
+}
 
 function goToWolt() {
   document.getElementById('wolt').scrollIntoView();

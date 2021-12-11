@@ -72,13 +72,18 @@ h2 {
   font-size: 150%;
 }
 
-#copy-button {
+#one-click {
   font-size: 100%;
   color: #dde;
   background-color: #a72727;
   border-color: #a72727;
 }
  
+#copy-button {
+  background-color: #349417bd;
+  border-color: #349417bd;
+}
+
 footer {
   margin: 2% 2%;
 }
@@ -86,7 +91,7 @@ footer {
 
 #img-col {
   width: 100%;
-  margin-top: 99999px;
+  margin-top: 100%;
   align-self: auto;
   margin-left: 20%;
 }
